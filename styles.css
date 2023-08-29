@@ -1,1 +1,63 @@
 /*  your css code here. If applicable */
+/* Reset default styles */
+body, h1, p, button, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Center the card */
+.card {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Style the product image */
+.product-image {
+    width: 80%;
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 10px;
+}
+
+/* Style the title */
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style the pricing */
+.pricing {
+    font-size: 18px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Style the description */
+.description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Style the buy now button */
+.buy-now-button {
+    padding: 10px 20px;
+    background-color: #ff4400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Change button color on hover */
+.buy-now-button:hover {
+    background-color: #0056b3;
+}
